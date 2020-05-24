@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url("../img/moscow_russia_desktop_800x1280.jpg"); */
+}
+.contein{
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header{
+    margin-top: 30px;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+  
+}
+
+main{
+    width: 70%;
+}
+
+nav{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-start;
+}
+.nav_item{
+    margin-bottom: 20px;
+}
+
+
+.block{
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: #a8a8a8 1px solid;
+}
+.form_speaker{
+    display: flex;
+    flex-direction: column;
+}
+.form_speaker input{
+    max-width: 150px;
+}
+
